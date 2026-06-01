@@ -1,0 +1,60 @@
+body{
+    background:#f5f7fb;
+    font-family:Segoe UI, sans-serif;
+}
+
+.container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-card,
+.result-card{
+    background:white;
+    width:100%;
+    max-width:650px;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+h1{
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.accuracy-box,
+.confidence-box{
+    background:#eef4ff;
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:25px;
+    font-weight:600;
+}
+
+.accuracy-box span,
+.confidence-box span{
+    color:#0d6efd;
+    font-size:1.2rem;
+    display:block;
+}
+
+.preview-image{
+    width:280px;
+    max-width:100%;
+    border-radius:12px;
+    margin:20px 0;
+}
+
+.prediction{
+    margin-bottom:20px;
+    color:#0d6efd;
+}
