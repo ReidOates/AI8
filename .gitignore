@@ -3,3 +3,4 @@ rambu/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
+*.pkl
