@@ -69,7 +69,7 @@ class_names = {
 def home():
     return render_template(
         "index.html",
-        accuracy="96%"
+        accuracy="93%"
     )
 
 
